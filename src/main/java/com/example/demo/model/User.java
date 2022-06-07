@@ -22,9 +22,7 @@ public class User {
 
     @Column(nullable = false, length = 64)
     private String password;
-
-    @Column(nullable=false)
-    private String contact;
+    // kaam nagarne kura haru
     @Column(name = "first_name", nullable = false, length = 20)
     private String firstName;
 
